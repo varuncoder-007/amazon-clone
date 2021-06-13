@@ -42,6 +42,18 @@ const Container = styled.div`
     height: 100vh;
     background-color: #f8f8f8;
     place-items : center;
+    @media (max-width: 800px) {
+        display : grid;
+        width:100%;
+        height: 100vh;
+        background-color: #f8f8f8;
+        place-items : center;
+        overflow:auto;
+        
+        
+        
+      }
+    
 `
 
 const Content = styled.div`

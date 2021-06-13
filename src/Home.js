@@ -62,12 +62,16 @@ export default Home;
 const Container= styled.div`
     max-width:1500px;
     margin: 0 auto;
+    width:100%;
+
     
 `
 const Banner= styled.div`
-    background-image:url('https://i.imgur.com/SYHeuYM.jpg') ;
+    background-image:url('https://images-eu.ssl-images-amazon.com/images/G/31/prime/Gateway/2021/desktop-1x._CB658860139_.jpg') ;
     min-height: 600px;
     background-position: center;
+    width:100%;
+
     background-size: cover;
     z-index: 1;
     mask-image: linear-gradient(to bottom, rgba(0,0,0,1) ,rgba(0,0,0,0));
@@ -83,8 +87,4 @@ const Content = styled.div`
 
     
 `
-const Content1 = styled.div`
-    
-    display: flex;
-    
-`
+

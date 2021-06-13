@@ -50,7 +50,7 @@ const  CartItem = ({id, item})=> {
                 </CartItemInfoBottom>
             </CartItemInfo>
             <CartItemPrice>
-                ${item.price}
+                ₹{item.price}
             </CartItemPrice>
 
         </Container>

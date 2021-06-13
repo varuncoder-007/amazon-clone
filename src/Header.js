@@ -41,6 +41,8 @@ function Header({cartItems,user,signOut}) {
 
             <HeaderNavItems>
                 <HeaderOption onClick={signOut}>
+                    
+                    
                     <OptionLineOne>Hello,{user.name}</OptionLineOne>
                     <OptionLineTwo>Accounts&Lists</OptionLineTwo>
                 </HeaderOption>

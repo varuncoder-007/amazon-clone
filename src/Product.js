@@ -26,11 +26,13 @@ function Product({title,price,rating,image,id}) {
     return (
         <Container>
             
+            
+            <Image src={image} />
             <Title>
                 {title}
             </Title>
             <Price>
-                ${price}
+                ₹{price}
             </Price>
             <Rating>
                { Array(rating)
@@ -38,7 +40,7 @@ function Product({title,price,rating,image,id}) {
                 .map(rating=> <p>⭐</p>)
                }
             </Rating>
-            <Image src={image} />
+
             <ActionSection>
                 <AddToCartButton
                     onClick={addToCart}
@@ -66,17 +68,25 @@ const Container= styled.div`
     flex-direction: column;
 `
 const Title= styled.span`
-
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    :hover {
+        color: #c45500!important;
 `
 const Price= styled.span`
-    font-weight: 500;
+    font-weight: bold;
     margin-top: 3px;
+    color: #B12704;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+
 `
 const Rating= styled.div`
     display:flex;
 `
 const Image= styled.img`
-    max-height: 200px;
+    max-height: 190px;
     object-fit: contain;
 `
 const ActionSection= styled.div`

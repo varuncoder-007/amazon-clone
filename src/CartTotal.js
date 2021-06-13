@@ -8,7 +8,7 @@ function CartTotal({getTotalPrice,getCount}) {
     return (
         <Container>
             <Subtotal>Subtotal({getCount()} items): 
-            <NumberFormat value={getTotalPrice()} displayType={'text'} thousandSeparator={true} prefix={'$'} />
+            <NumberFormat value={getTotalPrice()} displayType={'text'} thousandSeparator={true} prefix={'₹'} />
             </Subtotal>
             <CheckoutButton>Proceed to checkout</CheckoutButton>
         </Container>

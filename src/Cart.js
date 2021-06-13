@@ -40,4 +40,6 @@ const Container =styled.div`
     //TRouBLe
     padding: 14px 18px 0 18px;
     align-items: flex-start;
+    flex-wrap: wrap;
+
 `

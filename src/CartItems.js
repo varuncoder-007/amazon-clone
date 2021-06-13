@@ -32,6 +32,10 @@ const Container = styled.div`
     padding :20px;
     margin-right: 18px;
     background-color: white;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+
 `
 const Title = styled.h1`
     margin-bottom: 8px;
